@@ -60,6 +60,12 @@
       .no-phone { display:flex; align-items:flex-start; gap:10px; margin-top:10px; padding:11px 13px; border:1px dashed var(--blue); background:var(--sky); color:var(--ink); font-size:12px; line-height:1.4; }
       .no-phone strong { color:var(--blue); }
 
+      .kit { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; }
+      .kit img { display:block; width:100%; aspect-ratio:5/4; border:1px solid var(--line); background:#fff; }
+      .kit .fit-contain { object-fit:contain; padding:6px; }
+      .kit .fit-cover { object-fit:cover; object-position:center 42%; }
+      .band { display:block; width:100%; margin-top:12px; max-height:190px; object-fit:cover; }
+
       .pov { margin-top:18px; overflow:hidden; }
       .pov img { width:100%; display:block; object-fit:cover; max-height:220px; }
 
@@ -135,6 +141,21 @@
             <article class="step"><div class="num">1</div><h3><svg class="icon"><use href="#i-location"></use></svg>Ви обираєте ділянку роботи.</h3><p>Одна повторювана ручна операція: пакування, збірка, підготовка, маркування, прасування, сортування і багато іншого.</p><div class="down">&#8595;</div></article>
             <article class="step"><div class="num">2</div><h3><svg class="icon"><use href="#i-setting"></use></svg>Fluffle все налаштовує.</h3><p>Привозимо обладнання, оформлюємо згоду працівників, пояснюємо процес запису. Налаштування займає близько 20 хвилин.</p><div class="down">&#8595;</div></article>
             <article class="step"><div class="num">3</div><h3><svg class="icon"><use href="#i-tick"></use></svg>Підтверджені години оплачуються.</h3><p>Робота триває як завжди. Після перевірки запису кожна підтверджена година оплачується за узгодженою схемою.</p></article>
+          </div>
+        </section>
+
+        <section class="block card">
+          <div class="block-head">
+            <span class="icon-badge lime"><svg class="icon"><use href="#i-setting"></use></svg></span>
+            <div>
+              <span class="eyebrow">Обладнання</span>
+              <h2>Кріплення на голову даємо ми</h2>
+            </div>
+          </div>
+          <p>Кріплення і застосунок безкоштовні. Телефон тримається на рівні очей, руки лишаються вільними, а вмикає та вимикає запис сам працівник.</p>
+          <div class="kit">
+            <img class="fit-contain" src="assets/head-strap.jpg" alt="Кріплення на голову з телефоном у режимі запису">
+            <img class="fit-cover" src="assets/potter-pov.jpg" alt="Гончарка за роботою в кріпленні на голові">
           </div>
         </section>
 
@@ -226,6 +247,7 @@
             </div>
           </div>
           <p>Визначення тут гнучке: пакування, збірка, прасування, сортування, інспекція, ремонт, розкрій і багато що ще може підійти. Найпростіше: написати мені, що саме роблять руки на вашому виробництві, і ми разом вирішимо, чи це підходить.</p>
+          <img class="band" src="assets/sewing.jpg" alt="Вишивальниця у кріпленні на голові за повторюваною ручною роботою">
         </section>
 
         <div class="pov"><img src="assets/pov-work-shot.jpg" alt="Відео від першої особи: руки складають тканину"></div>

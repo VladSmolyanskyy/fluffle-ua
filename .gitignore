@@ -1,0 +1,6 @@
+.DS_Store
+# Stray media that is not part of this page. hero_real_work_data.mp4 belongs to
+# the RealWorkData project and must not be published here.
+*.mp4
+# The publish transform lives in the deck folder and holds plaintext contacts.
+publish-ua.py
