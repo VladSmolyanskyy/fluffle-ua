@@ -14,4 +14,10 @@ Public link-only copy of the Ukrainian Fluffle business one-pager.
 
 ## Updating
 
-Re-run the publish transform from the deck folder, then `git commit && git push`. Pages redeploys on push to `main`.
+Edit the source page in the deck folder, then from that folder run:
+
+```
+python3 publish-ua.py
+```
+
+It rebuilds `index.html` and the web-sized assets here. Then `git commit && git push` — Pages redeploys on push to `main`. `publish-ua.py` stays out of this repo because it holds the plaintext contact details.
